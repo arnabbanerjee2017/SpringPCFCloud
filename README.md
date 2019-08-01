@@ -20,11 +20,11 @@ Spring PCF Actuator
 ----------------------------
 This project demonstrates the working of Spring Boot Actuator on PCF.
 First add the dependency and the plugin in the pom.xml as below -
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		
+		</dependency>		
 		<build>
 			<plugins>
 				<plugin>
@@ -46,6 +46,7 @@ First add the dependency and the plugin in the pom.xml as below -
 		</build>
 
 The manifest.yml file as below - 
+
 		applications:
 		- name: spring-pcf-actuator
 		  memory: 768M
