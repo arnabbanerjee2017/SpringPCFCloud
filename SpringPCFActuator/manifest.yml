@@ -3,4 +3,4 @@ applications:
   memory: 768M
   instances: 2
   random-route: true
-  path: target\SpringPCFDemo-0.0.1-SNAPSHOT.jar
+  path: target\SpringPCFActuator-0.0.1-SNAPSHOT.jar
