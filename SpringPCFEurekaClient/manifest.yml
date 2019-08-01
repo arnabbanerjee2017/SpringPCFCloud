@@ -1,0 +1,6 @@
+applications:
+- name: spring-pcf-eureka-client
+  memory: 768M
+  instances: 1
+  random-route: true
+  path: target\SpringPCFEurekaServer-0.0.1-SNAPSHOT.jar
